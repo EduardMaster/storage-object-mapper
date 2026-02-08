@@ -1,1 +1,1 @@
-rootProject.name = "object_mapper"
+rootProject.name = "storage"
