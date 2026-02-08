@@ -28,7 +28,7 @@ dependencies {
     <dependency>
         <groupId>com.github.EduardMaster</groupId>
         <artifactId>storage-object-mapper</artifactId>
-        <version>v1.0.0</version>
+        <version>v1.0.1</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
