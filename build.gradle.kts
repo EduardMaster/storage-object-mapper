@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "br.com.eduard"
-version = "1.0"
+version = "1.0.0"
 
 publishing {
     publications {
@@ -23,9 +23,11 @@ repositories {
     mavenCentral()
     mavenLocal()
     google()
+    maven("https://jitpack.io")
 }
 //mavenGoogle()
 dependencies {
     compileOnly(kotlin("stdlib"))
     implementation("com.google.code.gson:gson:2.9.1")
+    implementation("com.github.EduardMaster:java-utils:1.0.0")
 }

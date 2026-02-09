@@ -1,7 +1,7 @@
 package br.com.eduard.storage.storables;
 
+import br.com.eduard.java_utils.Extra;
 import com.google.gson.*;
-import br.com.eduard.storage.util.Extra;
 import br.com.eduard.storage.Storable;
 import br.com.eduard.storage.annotations.StorageAttributes;
 

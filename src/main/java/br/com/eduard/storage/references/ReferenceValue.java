@@ -1,6 +1,7 @@
 package br.com.eduard.storage.references;
 
 import br.com.eduard.storage.StorageAPI;
+import br.com.eduard.storage.api.ReferenceBase;
 import br.com.eduard.storage.api.StorageInfo;
 
 public class ReferenceValue extends ReferenceBase<Object> {

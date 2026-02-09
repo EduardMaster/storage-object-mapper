@@ -1,6 +1,4 @@
-package br.com.eduard.storage.references;
-
-import br.com.eduard.storage.api.StorageInfo;
+package br.com.eduard.storage.api;
 
 public abstract class ReferenceBase<T> {
     private StorageInfo info;

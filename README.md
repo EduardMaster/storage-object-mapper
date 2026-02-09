@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     api("com.github.EduardMaster:storage-object-mapper:main-SNAPSHOT") // last-version
-    api("com.github.EduardMaster:storage-object-mapper:v1.0.1") // v1.0-version
+    api("com.github.EduardMaster:storage-object-mapper:1.0.0") // v1.0-version
 }
 ```
 #### Maven
@@ -28,7 +28,7 @@ dependencies {
     <dependency>
         <groupId>com.github.EduardMaster</groupId>
         <artifactId>storage-object-mapper</artifactId>
-        <version>v1.0.1</version>
+        <version>1.0.0</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
@@ -39,9 +39,10 @@ dependencies {
 ```java
 import br.com.eduard.storage.StorageAPI;
 
-public void exampleWithoutJSON() {
+
+public static void main(String[] args) {
     StorageAPI.autoRegisterClass(MyCustomClass.class);
-    var myClass = new MyCUstomClass();
+    var myClass = new MyCustomClass();
     myClass.name = "NewName";
     
     var myClassMap = StorageAPI.store(MyCustomClass.class, myClass);

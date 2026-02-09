@@ -1,15 +1,15 @@
 package br.com.eduard.storage;
 
+import br.com.eduard.java_utils.Extra;
 import br.com.eduard.storage.impl.*;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonSerializer;
 
-import br.com.eduard.storage.util.Extra;
 import br.com.eduard.storage.api.StorageClassInfo;
 import br.com.eduard.storage.api.StorageInfo;
-import br.com.eduard.storage.references.ReferenceBase;
+import br.com.eduard.storage.api.ReferenceBase;
 import br.com.eduard.storage.storables.TimeStampStorable;
 import br.com.eduard.storage.storables.UUIDStorable;
 
@@ -236,7 +236,6 @@ public final class StorageAPI {
                 amount++;
             }
         }
-
         StorageAPI.log("REMOVING CLASSES WITH SAME LOADER OF: " + alias + " AMOUNT: " + amount);
     }
 

@@ -1,7 +1,6 @@
 package br.com.eduard.storage.impl;
 
-import br.com.eduard.storage.util.Extra;
-
+import br.com.eduard.java_utils.Extra;
 import br.com.eduard.storage.api.StorageBase;
 import br.com.eduard.storage.api.StorageInfo;
 

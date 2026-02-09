@@ -1,6 +1,6 @@
 package br.com.eduard.storage;
 
-import br.com.eduard.storage.util.Extra;
+import br.com.eduard.java_utils.Extra;
 
 import java.util.Map;
 
